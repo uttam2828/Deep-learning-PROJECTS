@@ -1,3 +1,4 @@
-json_file = open('model.json','r')
-loaded_model_json = json_file.read()
-json_file.close()
+with open("model.json", "r") as json_file:
+    content = json_file.read()
+    print("File content:", content)  # Debugging
+    model = model_from_json(content)
