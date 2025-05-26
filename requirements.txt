@@ -5,3 +5,4 @@ scikit-learn
 streamlit
 sqlalchemy
 keras
+h5py
